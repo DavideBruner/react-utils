@@ -1,0 +1,21 @@
+{
+  "defaultSeverity": "error",
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier",
+    "tslint-plugin-prettier"
+  ],
+  "jsRules": {},
+  "rules": {
+    "ordered-imports": false,
+    "trailing-comma": false,
+    "arrow-parens": false,
+    "object-literal-sort-keys": false,
+    "member-access": false,
+    "prettier": true,
+    "forin": false,
+    "interface-name": false,
+    "only-arrow-functions": false
+  },
+  "rulesDirectory": []
+}
